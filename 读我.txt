@@ -1,0 +1,7 @@
+该代码使用Monte Carlo + fastdrop methd来解决非线性整数优化问题。
+
+文件功能描述
+
+1.log：在自动改变参数地进行多次优化（除了MC的迭代次数和以同一组参数进行优化的轮数），并将它们记录到一个json文件中。
+2. final01: 蒙特卡洛+快降优化器。
+3. semifinal：测试Fastdrop方法
